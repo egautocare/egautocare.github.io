@@ -2068,6 +2068,10 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
 
+.main_content {
+  position: inherit;
+  padding-top: 200px; }
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -3437,6 +3441,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  margin-top: 25px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8024,8 +8029,11 @@ h1, h2, h3, h4, h5,
   font-weight: 400; }
 
 .wrap {
-  background: #202020;
-  padding: 25px 0; }
+    background: #202020;
+    padding-top: 25px;
+    position: fixed;
+    z-index: 999;
+    width: 100%; }
   .wrap .top-wrap {
     font-size: 12px; }
     .wrap .top-wrap .icon {
